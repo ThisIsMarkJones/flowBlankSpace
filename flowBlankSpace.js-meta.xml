@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="flowBlankSpace">
+    <apiVersion>58.0</apiVersion> <!-- Use the appropriate API version for your org -->
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="height" type="String" label="Height" description="Height of the blank space (e.g., '20px', '1rem', '10%')" />
+            <property name="width" type="String" label="Width" description="Width of the blank space (e.g., '100%', '50px', 'auto')" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
